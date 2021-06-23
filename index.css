@@ -1,0 +1,27 @@
+body{
+    background-color: #040405;
+    font-family:"roboto", sans-serif;
+}
+.wrapper{
+    
+    color: white;
+}
+.shows{
+    background-image: url("shows.jpg")
+}
+h5{
+    position: absolute;
+    top: 6px;
+    right: 80px;
+}
+.titleGreen{
+    color: #1ce783;
+    text-align: center;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.logo{
+    
+}
