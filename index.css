@@ -1,27 +1,103 @@
 body{
+    margin:0;
     background-color: #040405;
-    font-family:"roboto", sans-serif;
+    font-family:"Montserrat"
 }
 .wrapper{
     
     color: white;
 }
-.shows{
-    background-image: url("shows.jpg")
+a{
+    text-decoration: none;
 }
-h5{
+a:visited{
+    color:inherit;
+}
+
+#login{
     position: absolute;
     top: 6px;
     right: 80px;
+    color: white;
+
 }
-.titleGreen{
+.showsImg{
+    
+    height:80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(shows.gif);
+    background-size: cover;
+}
+.title{
+    padding-top: 20vh;
     color: #1ce783;
     text-align: center;
     font-size: small;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
+    font-weight:thin;
+    font-family: "Montserrat Narrow";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .logo{
-    
+    margin-top: 20px;
+    width:250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url(hulu-Green-digital.png);
+    margin-bottom: -10px;
+}
+#watchThousands{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    position: relative;
+    color: white;
+    height:15vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:-40px;
+}
+.HBO{
+    text-align:center;
+    position: relative;
+    color: white;
+    height:15vh;
+    width: 60vw;
+    font-size: large;
+    font-weight:normal;
+    margin-bottom: -40px;
+}
+
+.startFreeTrialButton{
+    display: inline-flex;
+    background-color: white;
+    color: black;
+    height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    font-size: large;
+    text-decoration: none;
+    align-items: center;
+}
+.startFreeTrialButton:hover{
+    opacity: 0.85;
+}
+#terms{
+    font-size:x-small;
+    color: gray;
 }
