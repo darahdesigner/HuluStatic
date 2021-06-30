@@ -1,3 +1,101 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-Thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-ExtraLight.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: Italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: Italic;
+}
+
 body{
     margin:0;
     background-color: #040405;
@@ -31,9 +129,10 @@ a:visited{
     align-items: center;
     background-image: url(shows.gif);
     background-size: cover;
+    background-color: #040405;
 }
 .title{
-    padding-top: 20vh;
+    padding-top: 50px;
     color: #1ce783;
     text-align: center;
     font-size: small;
@@ -85,7 +184,7 @@ a:visited{
 .startFreeTrialButton{
     display: inline-flex;
     background-color: white;
-    color: black;
+    color: #040405;
     height: 60px;
     padding-left: 25px;
     padding-right: 25px;
@@ -99,5 +198,81 @@ a:visited{
 }
 #terms{
     font-size:x-small;
-    color: gray;
+    color: rgb(168, 168, 168);
+}
+.title2{
+   margin-top: 60px;
+    color: #1ce783;
+    text-align: center;
+    font-size: small;
+    font-weight:thin;
+    font-family: "Montserrat Narrow";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.allTheTV{
+    font-size:30px;
+    font-weight: 900px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:-40px;
+
+}
+.streamFullSeasons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-weight: lighter;
+}
+.posters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.billie{
+    padding: 30px;
+}
+.solar{
+    padding: 30px;
+}
+.comparisonTable{
+background-color: white;
+padding: 50px;
+font-size: 14px;
+color: #040405;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border: 5px;
+}
+.comparisonTable{
+    margin-top:-10px;
+}
+.tryFor0{   
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    background-color: #040405;
+    height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    margin-top: -70px;
+    
+}
+.tryFor0:hover{
+    opacity: 70%;
 }
